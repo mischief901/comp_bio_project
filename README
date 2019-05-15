@@ -1,0 +1,16 @@
+
+I,unforunately,cannot upload the data and model for everything to run. The
+files are too big for both gradescope and github.
+
+To run with the packaged model and data, run: Python3 main.py
+
+Although not recommended, you can also retrain the model by uncommenting the
+call to main on line 222 in main.py
+
+Also not recommended, you can reload all the data from their files by
+uncommenting the call to main on line 221 in main.py. This requires that all
+the files be downloaded from HMDB at http://www.hmdb.ca/downloads
+The required docs are:
+    'Metabolite Structures' stored in an structures.sdf file
+    'MS-MS Spectra Files (XML)' stored in a folder 'predicted_ms_ms_spectra'
+
